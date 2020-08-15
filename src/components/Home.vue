@@ -16,16 +16,20 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <img alt="Vue logo" class="rounded-circle img-custome" src />
+                <img
+                  alt="Vue logo"
+                  class="rounded-circle img-custome"
+                  src="../assets/img/veganish.jpg"
+                />
                 <h2>Veganish</h2>
               </div>
               <hr />
               <div class="card-body">
                 <p>
-                  This appication helps many with special diets as of veganism, vegetarian, and guten free
-                  to locate food in their diets. Not only it helps the customer, it helps the resturants in
-                  the local area to spread the word of their food. For those who doesn't want to dine in
-                  there are many recipes to help create a masterpiece of a dish.
+                  Veganish helps many with special diets as of veganism, vegetarian, and guten free
+                  to locate foods in their diet. Not only it helps the customer, it helps the resturants in
+                  the local area to spread the word of their food. Also for those who doesn't want to dine in
+                  there are many recipes to help cook a masterpiece of a dish.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">More</button>
               </div>
@@ -36,15 +40,19 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <img alt="Vue logo" class="rounded-circle img-custome" src />
+                <img
+                  alt="Vue logo"
+                  class="lg-rounded-circle img-custome"
+                  src="../assets/img/chadder.jpg"
+                />
                 <h2>Chadder</h2>
               </div>
               <hr />
               <div class="card-body">
                 <p>
                   Want to let people know what's going on in your area but want to stay annoymous? Chadder
-                  could help with that. With Chadder you could see or let people know what's in your area or
-                  you could see what's going on in other areas. It's ike SnapChat's Snap Map but in text.
+                  could help with that. With Chadder you could see or let people know what's going on in your area or
+                  you could see what's going on in other areas. It's like SnapChat's SnapMap but in text.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">More</button>
               </div>
@@ -93,8 +101,9 @@ export default {
   /* padding:15% */
 }
 .img-custome {
-  width: 140px;
-  height: 140px;
-  margin-top: 15px;
+  width: 125px;
+  height: 125px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 </style>

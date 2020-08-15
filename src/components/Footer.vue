@@ -9,19 +9,19 @@
           <h5>Follow me!</h5>
           <ul class="list-unstyled text-small">
             <li>
-              <a class="text-muted" href="#">GitHub</a>
+              <a class="text-muted" href="https://github.com/neilhammerle">GitHub</a>
             </li>
             <li>
-              <a class="text-muted" href="#">Facebook</a>
+              <a class="text-muted" href="http://www.linkedin.com/in/neilhammerle">LinkedIn</a>
             </li>
             <li>
-              <a class="text-muted" href="#">Intagram</a>
+              <a class="text-muted" href="https://www.facebook.com/neil.hammerle">Facebook</a>
             </li>
             <li>
-              <a class="text-muted" href="#">Snapchat</a>
+              <a class="text-muted" href="https://www.instagram.com/neil_h17/">Intagram</a>
             </li>
             <li>
-              <a class="text-muted" href="#">Twitter</a>
+              <a class="text-muted" href="https://twitter.com/NeilHammerle">Twitter</a>
             </li>
           </ul>
         </div>
