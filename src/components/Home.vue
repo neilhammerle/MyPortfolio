@@ -1,11 +1,7 @@
 <template>
-  <div>
-    <!-- lander section -->
-    <section class="section">
-      <div class="container-fliud">
-        <img alt="Vue logo" class="my-3" src="../assets/img/goldengate.gif" />
-      </div>
-    </section>
+  <div class="home">
+    <Nav></Nav>
+    <Hero />
 
     <!-- portfolio section -->
     <section class="protfolio">
@@ -61,31 +57,17 @@
         </div>
       </div>
     </section>
-
-    <!-- modal for contact -->
-
-    <section class>
-      <div
-        class="modal fade bd-example-modal-lg"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="myLargeModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <talk />
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
-<script lang="ts">
+<script>
+import Hero from "./Hero.vue";
+
 export default {
-  name: "Home",
-  components: {}
+  name: "home",
+  components: {
+    Hero
+  }
 };
 </script>
 
@@ -105,11 +87,5 @@ export default {
   height: 125px;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-.my-3 {
-  width: 500px;
-  height: 500px;
-  margin-top: 125px;
-  margin-bottom: 125px;
 }
 </style>
