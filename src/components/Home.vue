@@ -3,7 +3,7 @@
     <!-- lander section -->
     <section class="section">
       <div class="container-fliud">
-        <img alt="Vue logo" class="rounded-circle" src />
+        <img alt="Vue logo" class="my-3" src="../assets/img/goldengate.gif" />
       </div>
     </section>
 
@@ -91,8 +91,8 @@ export default {
 
 <style lang="css" scoped>
 .section {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .protfolio {
   background-color: #34345238;
@@ -105,5 +105,11 @@ export default {
   height: 125px;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.my-3 {
+  width: 500px;
+  height: 500px;
+  margin-top: 125px;
+  margin-bottom: 125px;
 }
 </style>
