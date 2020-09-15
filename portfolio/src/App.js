@@ -1,10 +1,11 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Footer from './components/Footer';
+import { FooterContainer } from './containers/footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -55,7 +56,7 @@ class App extends React.Component {
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
-          <Footer />
+          <FooterContainer />
 
         </Container>
       </Router>
