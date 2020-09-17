@@ -9,16 +9,16 @@ export function FooterContainer() {
                 <Footer.Row>
                     <Footer.Column>
                         <Footer.Title>Neil Hammerle </Footer.Title>
-                        <Footer.Link href='#'>About me</Footer.Link>
-                        <Footer.Link href='#'>Projects</Footer.Link>
+                        <Footer.Link href='/About'>About Me</Footer.Link>
+                        <Footer.Link href='https://github.com/neilhammerle'>Projects</Footer.Link>
                     </Footer.Column>
                     <Footer.Column>
                         <Footer.Title>Follow me!</Footer.Title>
-                        <Footer.Link href='#'>GitHub</Footer.Link>
-                        <Footer.Link href='#'>LinkedIn</Footer.Link>
-                        <Footer.Link href='#'>Facebook</Footer.Link>
-                        <Footer.Link href='#'>Instagram</Footer.Link>
-                        <Footer.Link href='#'>Twitter</Footer.Link>
+                        <Footer.Link href='https://github.com/neilhammerle'>GitHub</Footer.Link>
+                        <Footer.Link href='https://www.linkedin.com/in/neilhammerle/'>LinkedIn</Footer.Link>
+                        <Footer.Link href='https://www.facebook.com/neil.hammerle'>Facebook</Footer.Link>
+                        <Footer.Link href='https://www.instagram/neil_17'>Instagram</Footer.Link>
+                        <Footer.Link href='https://www.twitter.com/NeilHammerle'>Twitter</Footer.Link>
 
                     </Footer.Column>
                 </Footer.Row>

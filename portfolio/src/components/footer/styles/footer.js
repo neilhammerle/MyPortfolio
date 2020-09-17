@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 80px 60px;
-  background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
+  padding: 50px 60px;
+  background: #f4f5f7;
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -34,7 +34,7 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
@@ -46,7 +46,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   margin-bottom: 40px;
   font-weight: bold;
 `;
