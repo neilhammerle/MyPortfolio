@@ -4,6 +4,8 @@ import Card from './Card'
 
 import chadder from '../assets/img/chadder.png';
 import veganish from '../assets/img/veganish.png';
+import burger from '../assets/img/burger.png';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -18,7 +20,7 @@ class Carousel extends React.Component {
                     title: 'Chadder',
                     subTitle: 'Annoymous chatting app',
                     imgSrc: chadder,
-                    link: "",
+                    link: "https://github.com/neilhammerle/Chadder",
                     selected: false
                 },
                 {
@@ -28,7 +30,15 @@ class Carousel extends React.Component {
                     imgSrc: veganish,
                     link: "",
                     selected: false
-                }
+                },
+                {
+                    id: 2,
+                    title: 'Nelsons Gourmet Burger',
+                    subTitle: 'Resturant website',
+                    imgSrc: burger,
+                    link: "https://github.com/neilhammerle/burger",
+                    selected: false
+                },
 
             ]
 
