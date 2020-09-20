@@ -5,6 +5,7 @@ import Card from './Card'
 import chadder from '../assets/img/chadder.png';
 import veganish from '../assets/img/veganish.png';
 import burger from '../assets/img/burger.png';
+import portalgun from '../assets/img/portalgun.png'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -37,6 +38,14 @@ class Carousel extends React.Component {
                     subTitle: 'Resturant website',
                     imgSrc: burger,
                     link: "https://github.com/neilhammerle/burger",
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Rick and Morty Game',
+                    subTitle: 'A clicky game based off Rick and Morty characters',
+                    imgSrc: portalgun,
+                    link: "https://github.com/neilhammerle/ClickyGame",
                     selected: false
                 },
 
